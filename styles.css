@@ -49,3 +49,11 @@ button:hover {
   border-radius: 8px;
   font-size: 16px;
 }
+
+body {
+  margin: 0;                  /* quita márgenes por defecto */
+  min-height: 100vh;          /* altura mínima = 100% de la ventana */
+  display: flex;              /* activa flexbox */
+  justify-content: center;    /* centra horizontal */
+  align-items: center;        /* centra vertical */
+}
