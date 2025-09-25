@@ -1,11 +1,11 @@
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  display: flex;              /* Flexbox para centrar */
+  justify-content: center;    /* Centrar horizontal */
+  align-items: center;        /* Centrar vertical */
+  height: 100vh;              /* Toda la altura de la ventana */
+  margin: 0;                  /* Sin margen por defecto */
 }
 
 .container {
@@ -48,12 +48,4 @@ button:hover {
   background: #f1f1f1;
   border-radius: 8px;
   font-size: 16px;
-}
-
-body {
-  margin: 0;                  /* quita márgenes por defecto */
-  min-height: 100vh;          /* altura mínima = 100% de la ventana */
-  display: flex;              /* activa flexbox */
-  justify-content: center;    /* centra horizontal */
-  align-items: center;        /* centra vertical */
 }
